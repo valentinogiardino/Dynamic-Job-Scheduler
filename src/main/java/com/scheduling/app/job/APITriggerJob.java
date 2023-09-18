@@ -13,7 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class APITriggerJob implements Job {
+public class  APITriggerJob implements Job {
 
     private static final Logger LOG = LoggerWrapper.getLogger(APITriggerJob.class);
 
